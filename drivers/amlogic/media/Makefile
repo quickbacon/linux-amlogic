@@ -15,4 +15,4 @@ obj-$(CONFIG_AMLOGIC_MEDIA_GDC) += gdc/
 
 obj-$(CONFIG_AMLOGIC_MEDIA_ALGORITHM) += algorithm/
 obj-$(CONFIG_AMLOGIC_VIDEO_CAPTURE) += camera/
-obj-$(CONFIG_MESON_V4L2_DECODER)	+= meson/
+obj-$(CONFIG_VIDEO_MESON_VDEC)	+= meson/

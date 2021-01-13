@@ -1,9 +1,3 @@
-#
-# Amlogic ionvideo device configuation
-#
-
-menu "meson decoder v4l2 support"
-
 config VIDEO_MESON_VDEC
 	tristate "Amlogic video decoder driver"
 	depends on VIDEO_DEV && VIDEO_V4L2 && HAS_DMA
@@ -13,5 +7,3 @@ config VIDEO_MESON_VDEC
 	select MESON_CANVAS
 	help
 	Support for the video decoder found in gxbb/gxl/gxm chips.
-
-endmenu
