@@ -10,6 +10,7 @@ obj-$(CONFIG_ARCH_MEDIATEK)	+= mediatek/
 obj-$(CONFIG_ARCH_QCOM)		+= qcom/
 obj-$(CONFIG_ARCH_RENESAS)	+= renesas/
 obj-$(CONFIG_ARCH_ROCKCHIP)	+= rockchip/
+obj-$(CONFIG_ARCH_MESON)	+= amlogic/	
 obj-$(CONFIG_SOC_SAMSUNG)	+= samsung/
 obj-$(CONFIG_ARCH_SUNXI)	+= sunxi/
 obj-$(CONFIG_ARCH_TEGRA)	+= tegra/
